@@ -2,12 +2,42 @@ body {
   margin: 0;
 }
 
-.nav {
+nav {
   background-color: #383737;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
-.nav-dropdown {
-  color: #fff;
-  text-decoration: none;
+.dropdown-label {
+  padding: 15px 20px;
+  border: none;
+  background-color: #383737;
+  color: white;
+}
+
+.dropdown {
+  position: relative;
   display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: cadetblue;
+}
+
+.dropdown-content--item {
+  color: white;
+  padding: 15px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content--item:hover {
+  background-color: cyan;
 }

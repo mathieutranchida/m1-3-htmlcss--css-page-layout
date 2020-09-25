@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+img {
+    width: 33vw;
+    margin: 2px;
+}

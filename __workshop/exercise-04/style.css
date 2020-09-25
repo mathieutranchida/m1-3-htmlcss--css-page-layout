@@ -1,0 +1,26 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.limitedTime {
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text {
+    padding: 0% 25%;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+div {
+    display: flex;
+    min-height: 1278px;
+    background-image: url(imgs/bg.jpg);
+    background-size: 100%;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    order: 2;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: black;
+    order: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
